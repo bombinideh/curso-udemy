@@ -1,0 +1,18 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  border: 1px solid #a1a1a1;
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  outline: 0;
+}
+
+.form-control input:focus {
+  border-color: #00695c;
+}
